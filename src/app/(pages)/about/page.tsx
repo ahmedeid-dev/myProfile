@@ -26,13 +26,13 @@ innovative web solutions and grow as a professional in the tech industry.
         <label className="h3">HTML</label>
         </Link>
     </div>
-    <div
+            <div
         className=" progress bg-body "
-        role="progressbar"
-        aria-label="Basic example"
-        aria-valuenow="0"
-        aria-valuemin="0"
-        aria-valuemax="100"
+        // role="progressbar"
+        // aria-label="Basic example"
+        // aria-valuenow="0"
+        // aria-valuemin="0"
+        // aria-valuemax="100"
     >
         <div className="progress-bar rounded-2 " style={{ width: "95%" }}></div>
     </div>

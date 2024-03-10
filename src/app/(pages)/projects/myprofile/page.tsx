@@ -6,8 +6,8 @@ export default function page() {
   return <>
     <div className='text-center text-capitalize'>
       <h2>my profile</h2>
-      <p className=''>The latest "Framework" Project And 
-                              A New "Next" Web Site</p>
+      <p className=''>The latest &quot;Framework&quot; Project And 
+                              A New &quot;Next&quot; Web Site</p>
       <p>using <span className="fw-bold">
       Html5 && Css3 && bootstrap && Fontawesome && JavaScript <br/>
 And Also has a lot of features that i used in React like <br/> (App-router , react-detect-offline , react-helmet ,  react-loader-spinner ) 
@@ -22,7 +22,7 @@ And Also has a lot of features that i used in React like <br/> (App-router , rea
                       {/* <!-- WebSite --> */}
                       <Link
             className=" rounded rounded-circle  m-1"
-            href="https://fresh-cart-olive.vercel.app/"
+            href='/'
             role="button"
             target="_blank"
             >
@@ -32,7 +32,7 @@ And Also has a lot of features that i used in React like <br/> (App-router , rea
             {/* <!-- Github --> */}
             <Link
             className=" rounded rounded-circle m-1"
-            href="https://github.com/ahmedeid2260/Fresh-Cart"
+            href="https://github.com/ahmedeid2260/myProfile"
             role="button"
             target="_blank"
             >
@@ -42,8 +42,8 @@ And Also has a lot of features that i used in React like <br/> (App-router , rea
       </div>
       <div className="col-md-9">
         <figure className=" rounded rounded-2 overflow-hidden img">
-          <Link href="https://fresh-cart-olive.vercel.app/" target="_blank">
-          <Image src={require("../../../../assets/image/13freshcart.svg")} alt="react-App1" className="w-100 h-50" />
+          <Link href='/' target="_blank">
+          <Image src={require("../../../../assets/image/dev.jpg")} alt="react-App1" className="w-100 h-25" />
           </Link>
         </figure>
       </div>

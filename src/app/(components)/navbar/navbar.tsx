@@ -21,7 +21,7 @@ return (
             <i className="fa-solid fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav gap-4 m-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav gap-4 m-auto mb-2 h3 mb-lg-0">
             <li className="nav-item">
                 <Link
                 className="nav-link active"
@@ -30,13 +30,7 @@ return (
                 >
                 About
                 </Link>
-            </li>
-
-            <li className="nav-item">
-                <Link className="nav-link" href="/contact">
-                Contact
-                </Link>
-            </li>
+                        </li>
 
             <li className="nav-item">
                 <Link className="nav-link" href="/projects">

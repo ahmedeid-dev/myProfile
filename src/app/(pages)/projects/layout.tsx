@@ -9,59 +9,59 @@ return <>
                 <ul className="list-unstyled h4 text-capitalize">
                     
                     <li className="my-3 h2">
-                    <Link href="/projects/backery"> Backery</Link>
+                    <Link className='text-decoration-none text-black'  href="/projects/backery"> Backery</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/fokir"> fokir</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/fokir"> fokir</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/mealify"> mealify</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/mealify"> mealify</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/devfolio"> devfolio</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/devfolio"> devfolio</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/daniels"> daniels</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/daniels"> daniels</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/quoteapp"> quoteapp</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/quoteapp"> quoteapp</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/bookmark"> bookmark</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/bookmark"> bookmark</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/smartlogin"> smartlogin</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/smartlogin"> smartlogin</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/weather"> weather</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/weather"> weather</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/party"> party</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/party"> party</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/yummy"> yummy</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/yummy"> yummy</Link>
                     </li>
 
                     <li className="my-3 h2">
-                    <Link href="/projects/app1"> app1</Link>
+                    <Link className='text-decoration-none text-black' href="/projects/app1"> app1</Link>
                     </li>
 
                     <li className="my-3 h2">
-                <Link href="/projects/freshcart"> freshcart</Link>
+                <Link className='text-decoration-none text-black' href="/projects/freshcart"> freshcart</Link>
                     </li>
 
                     <li className="my-3 h2">
-                <Link href="/projects/myprofile"> myprofile</Link>
+                <Link className='text-decoration-none text-black' href="/projects/myprofile"> myprofile</Link>
                     </li>
                         
                 </ul>

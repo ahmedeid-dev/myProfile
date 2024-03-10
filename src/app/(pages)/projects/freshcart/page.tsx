@@ -6,8 +6,8 @@ export default function page() {
   return <>
     <div className='text-center text-capitalize'>
       <h2>Fresh Cart</h2>
-      <p className=''>The Most Important "Framework" Project And 
-                              A New "React" Web Site</p>
+      <p className=''>The Most Important &quot;Framework&quot; Project And 
+                              A New &quot;React&quot; Web Site</p>
       <p>using <span className="fw-bold">
       Html5 && Css3 && bootstrap && Fontawesome && 
 JavaScript && Es6 && Regex && jQuery && jwt-decode && Context Api .

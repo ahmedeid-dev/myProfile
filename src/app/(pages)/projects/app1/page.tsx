@@ -6,10 +6,10 @@ export default function page() {
   return <>
     <div className='text-center text-capitalize'>
       <h2>React App 1</h2>
-      <p className=''>The First "Framework" Project And A New "React" Web Site  </p>
+      <p className=''>The First &quot; Framework &quot; Project And A New &quot;React&quot; Web Site  </p>
       using : <span className="fw-bold">  Html5 && Css3 && bootstrap && 
-        JavaScript && Regex && jQuery && "React" Library &&
-        "react-router-dom" </span>
+        JavaScript && Regex && jQuery && &quot;React&quot; Library &&
+        &quot;react-router-dom&quot; </span>
     </div>
     <div className="row g-4 align-items-center py-5">
       <div className="col-md-3">
