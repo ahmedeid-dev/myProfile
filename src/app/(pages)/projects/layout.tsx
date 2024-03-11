@@ -10,8 +10,8 @@ return <>
             </div>
         </div>
         <div className="col-md-3">
-            <div className="aside">
-                <ul className="list-unstyled h4 text-capitalize">
+            <div className="aside border border-black-50 border-4">
+                <ul className="list-unstyled h4 text-center text-capitalize">
                     
                     <li className="my-3 h2">
                     <Link className='text-decoration-none text-black'  href="/projects/backery"> Backery</Link>
