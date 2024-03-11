@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import  Link  from 'next/link';
 
-export default function layout({children}) {
+export default function layout({ children }: { children?: ReactNode }) {
 return <>
     <div className="row g-4">
+        <div className="col-md-9">
+            <div className="children">
+                {children}
+            </div>
+        </div>
         <div className="col-md-3">
             <div className="aside">
                 <ul className="list-unstyled h4 text-capitalize">
@@ -65,11 +70,6 @@ return <>
                     </li>
                         
                 </ul>
-            </div>
-        </div>
-        <div className="col-md-9">
-            <div className="children">
-                {children}
             </div>
         </div>
 </div>
