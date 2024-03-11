@@ -22,7 +22,7 @@ And Also has a lot of features that i used in React like <br/> (App-router , rea
                       {/* <!-- WebSite --> */}
                       <Link
             className=" rounded rounded-circle  m-1"
-            href='/'
+            href='https://my-profile-three-self.vercel.app/'
             role="button"
             target="_blank"
             >
@@ -42,7 +42,7 @@ And Also has a lot of features that i used in React like <br/> (App-router , rea
       </div>
       <div className="col-md-9">
         <figure className=" rounded rounded-2 overflow-hidden img">
-          <Link href='/' target="_blank">
+          <Link href='https://my-profile-three-self.vercel.app/' target="_blank">
           <Image src={require("../../../../assets/image/dev.jpg")} alt="react-App1" className="w-100 h-25" />
           </Link>
         </figure>
