@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css"
-// import "@fortawesome/fontawesome-free/js/all.min.js"
-// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./(components)/navbar/navbar";
 import Footer from "./(components)/footer/footer";
 import "./globals.css";
@@ -16,12 +14,8 @@ export const metadata: Metadata = {
   description: "Generated For My Profile",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return <>
+export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>){
+return <>
     <html lang="en">
       <body className={inter.className}>
         <Navbar />

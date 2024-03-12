@@ -2,3 +2,34 @@ Link{
     text-decoration: none !important;
     color: black !important;
 }
+h3{
+    position: relative;
+    &::after{
+        content: '';
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        bottom: -30px;
+        border: 2px #333 solid;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        background-color: #333;
+        bottom: -23px;
+        width: 200px;
+    }
+}
+h2{
+    color :#09c !important;
+}
+.aboutme{
+    line-height : 3.6;
+}

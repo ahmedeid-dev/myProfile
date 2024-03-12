@@ -1,12 +1,17 @@
+'use client'
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Navbar() {
-return (
+    useEffect(() => {
+        // @ts-ignore
+        import ("bootstrap/dist/js/bootstrap.bundle.min.js");
+    }, []);
+    return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand fw-bold fs-2" href="/">
             Ahmed Eid
         </Link>
         <button
@@ -21,10 +26,10 @@ return (
             <i className="fa-solid fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav gap-4 m-auto mb-2 h3 mb-lg-0">
+            <ul className="navbar-nav gap-4 ms-auto mb-2 h3 text-center mb-lg-0">
             <li className="nav-item">
                 <Link
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href="/about"
                 >
@@ -39,43 +44,6 @@ return (
             </li>
             </ul>
 
-            <ul className="navbar-nav gap-2 ms-auto mb-2 mb-lg-0 social">
-            <li className="nav-item">
-                <Link
-                className="btn btn-primary btn-floating m-1"
-                style={{ backgroundColor: " #dd4b39;" }}
-                href="mailto:a.email2260@gmail.com"
-                role="button"
-                target="_blank"
-                >
-                <i className="fab fa-google"></i>
-                </Link>
-            </li>
-
-            <li className="nav-item">
-                <Link
-                className="btn btn-primary btn-floating m-1"
-                style={{ backgroundColor: " #0082ca;" }}
-                href="https://www.linkedin.com/in/a-email2260/"
-                role="button"
-                target="_blank"
-                >
-                <i className="fab fa-linkedin-in"></i>
-                </Link>
-            </li>
-
-            <li className="nav-item">
-                <Link
-                className="btn btn-primary btn-floating m-1"
-                style={{ backgroundColor: " #333333;" }}
-                href="https://github.com/ahmedeid2260"
-                role="button"
-                target="_blank"
-                >
-                <i className="fab fa-github"></i>
-                </Link>
-            </li>
-            </ul>
         </div>
         </div>
     </nav>

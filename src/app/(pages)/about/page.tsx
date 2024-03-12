@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { ReactNode } from "react";
 
 export default function page() {
-return (
-    <>
+
+return <>
     <div className="objectives  my-2">
         <h2>Objectives : </h2>
-        <p className="fw-bold text-center " style={{ lineHeight: "2.6" }}>
+        <p className="fw-bold text-center aboutme">
         Motivated and detail-oriented Junior Front-End Developer seeking to
         leverage a solid foundation in front-end technologies to deliver
         high-quality user experiences. Adept at translating designs into
@@ -305,5 +305,4 @@ return (
         </div>
     </div>
     </>
-);
 }
