@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 export default function Home() {
   
 const onButtonClick = () => {
-const pdfUrl = "amedeidcv.pdf"; // file location in public folder
+const pdfUrl = "AhmedEidResume.pdf"; // file location in public folder
 const link = document.createElement("a");
 link.href = pdfUrl;
 link.download = "Ahmed Eid Cv.pdf"; // specify the filename
